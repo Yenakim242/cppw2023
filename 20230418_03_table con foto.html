@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tablas</title>
+	<meta charset="utf-8">
+	<style>
+		img {
+			width:100%;
+		}
+		.rectangulo{
+			width:400px;
+			height:400px;
+			border: 1px solid white;
+			margin-bottom: 20px;
+		}
+		.uno{
+			background-color:#E39FF6;
+		}
+		.dos{
+			background-color:#AF69EF;
+		}
+		.tres{
+			background-color:#BE93D4;
+		}
+		.contenidores{
+			display:flex;
+			flex-direction:row;
+			flex-wrap:nowrap;
+		}
+		th{
+			color:white;
+			font-size: 20pt;
+		}
+		tr{
+			color:white;
+			font-size: 20pt;
+		}
+		td{
+			color:white;
+			font-size: 18pt;	
+		}
+		table{
+			width: 80%;
+			background-color:#CC99FF;
+		}
+		contenidor2{
+			width: 900px;
+			height: 400px;
+			border: 1px solid white;
+			display:flex;
+			flex-direction:row;
+			flex-wrap:nowrap;
+		}
+	</style>
+</head>
+<body>
+	<h1>Últimas Peliculas</h1>
+	<hr>
+	<div class="contenidores">
+		<div class="rectangulo uno" align="center">
+			<div style="height=50%">
+			<img src="./imgs/johnwick4.jpeg" alt="John Wick4"></div>
+			<div>John Wick	4</div>
+			<div>
+			<p>Una exploración de las aventuras, las desgarradoras experiencias y las hazañas del legendario asesino a sueldo, John Wick.</p></div>
+		</div>
+		
+		<div class="rectangulo dos" align="center">
+		<div style="50%">
+			<img src="./imgs/oppenheimer.jpg" alt="Oppenheimer"></div>
+			<div>oppenheimernheimer</div>
+			<div>
+			<p>El físico J Robert Oppenheimer trabaja con un equipo de científicos durante el Proyecto Manhattan, que condujo al desarrollo de la bomba atómica.</p></div>
+		</div>
+		
+		<div style="50%"
+		<div class="rectangulo tres" align="center">
+		<div><img src="./imgs/supermario.jpg" alt="Super Mario Bros"></div>
+		<div>Super Mario Bros</div>
+		<div><p>Un fontanero llamado Mario viaja por un laberinto subterráneo con su hermano, Luigi, intentando salvar a una princesa capturada.</p></div>
+		</div>
+	</div>
+	<div class="contenidor2">
+	<h1>Horario</h1>
+	<hr>
+		<div class="abajo">
+			<table border="1">
+            <tr align="center">
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+				<th>Sábado</th>
+				<th>Domingo</th>
+            </tr>
+            <tr align="center">
+                <td>John Wick4</td>
+                <td>14:00</td>
+                <td>16:00</td>
+                <td>18:00</td>
+				<td>10:00</td>
+                <td>12:00</td>
+				<td>10:00</td>
+                <td>12:00</td>
+            </tr>
+            <tr align="center">
+                <td>Oppenheimer</td>
+                <td>14:00</td>
+                <td>16:00</td>
+                <td>18:00</td>
+				<td>10:00</td>
+                <td>12:00</td>
+				<td>10:00</td>
+                <td>12:00</td>
+            </tr>
+			<tr align="center">
+                <td>Super Mario Bros</td>
+                <td>14:00</td>
+                <td>16:00</td>
+                <td>18:00</td>
+				<td>10:00</td>
+                <td>12:00</td>
+				<td>10:00</td>
+                <td>12:00</td>
+            </tr>
+        </table>
+		</div>
+</body>
+</html>
