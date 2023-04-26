@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Creación de páginas web ccon el lenguaje  de marcas</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!--20230426-->
+<!--input: se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.-->
+<!--Una variedad de tipos de datos de entrada y widgets de control, que dependen del depositivo y el agente de usuario.-->
+<!--type: el tipo de control a mostrar. Su valor predeterminado es "text", si no se especifica este atributo. Los posibles valores
+1. color:  Control para especificar un color. Una interfaz de selección de control no requiere más funcionalidad que la de aceptar colores simples.
+2. password: Control de línes simple cuyo valor permanece oculto. 
+Se puede usar el atributo maxilength para ecipeficicar la longitud máxima del valor que se puede introducir.
+3. date: Control para introducir una fecha (año, mes y día, sin tiempo).
+4. datetime-local: Control para introducir fecha y hora, sin zona horaria especifica.
+5. text: Campo de texto de línea simple. Los saltos de línea son eliminados automáticamente del valor introducido.
+6. email: Campo para introducir una dirección de correo electrónico. 
+El valor introducido se valida para que contenga una cadena vacía o una dirección de correo válida antes de enviarse.
+7. file:Control que permite al usuario seleccionar un archivo. *accept(atributo): para definir los tipos de archivo que el control podrá seleccionar.
+8. hidden: Control que no es mostrado en pantalla, pero cuyo valor es enviado al servidor.
+9. image: Botón de envío de formulario con gráfico. *src: para definir el origen de imagen *height/width: para definir el tamaño de la imagen en píxels.-->
+<!--type: 
+
+<!--lalbel: una etiqueta para un elemento en una interfaz de usuario. 
+Este puede estar asociado con un control ya sea mediante la utilización del atributo for, o ubicado el control dentro del elemento label-el control etiquetado-->
+<!--
+
+</body>
+</html>
